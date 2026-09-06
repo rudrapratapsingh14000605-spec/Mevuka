@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mevuka | Artisanal Dry Fruits & Gourmet Nuts (250g Harvest Packs)</title>
+  <meta name="description" content="Discover Mevuka's handpicked selection of California almonds, whole cashews, Medjool dates, and gourmet dry fruits. Packed fresh in 250gm heritage packs.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo_icon.jpg">
+  
+  <!-- Google Fonts: Cinzel, Playfair Display, & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       TOP ANNOUNCEMENT BAR
+  ========================================================================== -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <span><i class="fa-solid fa-leaf"></i> 100% Handpicked Artisanal Harvest</span>
+      <span class="divider">•</span>
+      <span>Complimentary Express Shipping on Orders Above ₹999</span>
+      <span class="divider">•</span>
+      <span><i class="fa-solid fa-shield-halved"></i> Vacuum-Sealed 250g Freshness-Lock Packs</span>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION
+  ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" id="brand-logo">
+        <div class="logo-symbol">
+          <img src="assets/logo.jpg" alt="Mevuka Logo Emblem" class="brand-logo-img">
+        </div>
+        <div class="logo-text">
+          <span class="logo-name brand-cinzel">MEVUKA</span>
+          <span class="logo-tagline">ARTISANAL DRY FRUITS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#products" class="nav-link">Our Collection</a></li>
+          <li><a href="#about" class="nav-link">The Mevuka Story</a></li>
+          <li><a href="#quality" class="nav-link">Quality Standards</a></li>
+          <li><a href="#contact" class="nav-link">Contact & Inquiries</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Backend Status Indicator -->
+        <div class="server-status-pill" id="server-status" title="Flask Backend Connection Status">
+          <span class="status-dot"></span>
+          <span class="status-label">API Connected</span>
+        </div>
+
+        <!-- Cart Button -->
+        <button class="cart-trigger-btn" id="cart-trigger-btn" aria-label="Open Cart Drawer">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-label">Cart</span>
+          <span class="cart-badge" id="cart-count">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO SECTION
+  ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      
+      <div class="hero-content">
+        <div class="hero-pill">
+          <i class="fa-solid fa-award"></i> The Purest Dry Fruits Selection
+        </div>
+        <h1 class="hero-title">
+          Nature’s Finest Harvest, <br>
+          <span class="gold-text">Handpicked For You.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Sourced directly from heritage orchards across the world. Sun-ripened, 
+          strictly unbleached, and vacuum-sealed into premium <strong>250gm packs</strong> 
+          to preserve maximum nutrients and unparalleled crunch.
+        </p>
+        
+        <div class="hero-cta-group">
+          <a href="#products" class="btn btn-primary" id="hero-shop-btn">
+            Explore 250g Collection <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Our Quality Promise
+          </a>
+        </div>
+
+        <!-- Trust Features Grid -->
+        <div class="hero-trust-badges">
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-seedling"></i>
+            <div>
+              <strong>100% Natural</strong>
+              <small>Zero Preservatives</small>
+            </div>
+          </div>
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-box-archive"></i>
+            <div>
+              <strong>250g Fresh-Pack</strong>
+              <small>Nitrogen Flushed</small>
+            </div>
+          </div>
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div>
+              <strong>Pan-India Express</strong>
+              <small>Fast Safe Delivery</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Display -->
+      <div class="hero-visual">
+        <div class="visual-card-wrapper">
+          <img src="assets/hero_banner.jpg" alt="Mevuka Artisan Dry Fruits Assortment" class="hero-banner-img" id="hero-banner-img">
+          
+          <!-- Floating Seal 1 -->
+          <div class="floating-seal seal-top">
+            <img src="assets/logo.jpg" alt="Mevuka Seal" class="seal-logo-thumb">
+            <div>
+              <strong class="brand-cinzel">MEVUKA</strong>
+              <small>Grade A Harvest</small>
+            </div>
+          </div>
+
+          <!-- Floating Seal 2 -->
+          <div class="floating-seal seal-bottom">
+            <i class="fa-solid fa-shield-heart gold-icon"></i>
+            <div>
+              <strong>Artisanal Sourcing</strong>
+              <small>Orchard to Table</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VALUE PROPOSITION STRIP
+  ========================================================================== -->
+  <section class="features-bar">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-gem"></i></div>
+          <div class="feature-info">
+            <h3>Pinnacle Grading</h3>
+            <p>Every kernel sorted for uniform size, color, and optimal crunch.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-sun"></i></div>
+          <div class="feature-info">
+            <h3>Sun-Dried & Raw</h3>
+            <p>Naturally dehydrated without sulphur fumes or chemical glaze.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
+          <div class="feature-info">
+            <h3>250g Freshness Lock</h3>
+            <p>Specially sized foil pouches keeping every batch crisp and moist.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <div class="feature-info">
+            <h3>Ethical Sourcing</h3>
+            <p>Fair partnerships directly with traditional orchard growers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PRODUCTS SECTION
+  ========================================================================== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="section-header text-center">
+        <span class="sub-heading">THE HARVEST PANTRY</span>
+        <h2 class="section-title">The <span class="brand-cinzel">MEVUKA</span> Collection</h2>
+        <p class="section-description">
+          All dry fruits are curated in signature <strong>250gm sealed packets</strong>. 
+          Rich in healthy fats, plant protein, and vital micronutrients.
+        </p>
+      </div>
+
+      <!-- Controls: Search & Category Filter Pills -->
+      <div class="catalog-controls">
+        
+        <!-- Category Filter Pills -->
+        <div class="filter-pills" id="filter-pills">
+          <button class="filter-pill active" data-category="all">
+            <i class="fa-solid fa-border-all"></i> All Products (10)
+          </button>
+          <button class="filter-pill" data-category="nuts">
+            <i class="fa-solid fa-bowl-rice"></i> Premium Nuts (4)
+          </button>
+          <button class="filter-pill" data-category="dried_fruits">
+            <i class="fa-solid fa-apple-whole"></i> Sun-Dried Fruits (5)
+          </button>
+          <button class="filter-pill" data-category="seeds_gourmet">
+            <i class="fa-solid fa-feather"></i> Gourmet & Rare (1)
+          </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-box-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input 
+            type="text" 
+            id="product-search-input" 
+            class="search-input" 
+            placeholder="Search almonds, cashews, figs..."
+            autocomplete="off"
+          >
+          <button class="clear-search-btn" id="clear-search-btn" aria-label="Clear Search">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Products Results Counter & Active Query -->
+      <div class="catalog-status" id="catalog-status">
+        <span>Showing <strong id="product-count-display">10</strong> harvest items</span>
+        <span id="active-filter-label" class="active-filter-tag">All Categories</span>
+      </div>
+
+      <!-- Products Grid Container (Populated via script.js) -->
+      <div class="products-grid" id="products-grid">
+        <!-- Loading Skeleton / Preloader -->
+        <div class="loading-state" id="loading-state">
+          <i class="fa-solid fa-spinner fa-spin loading-spinner"></i>
+          <p>Harvesting fresh product data from Mevuka backend...</p>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div class="no-results-state hidden" id="no-results-state">
+        <i class="fa-solid fa-seedling empty-icon"></i>
+        <h3>No harvest found matching your query</h3>
+        <p>Try searching for other dry fruits or reset your filter.</p>
+        <button class="btn btn-secondary" id="reset-filter-btn">Show All Products</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ABOUT / BRAND STORY SECTION
+  ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container about-container">
+      
+      <div class="about-image-col">
+        <div class="story-image-card">
+          <img src="assets/logo.jpg" alt="Mevuka Artisanal Insignia" class="story-img story-insignia-img">
+          <div class="story-badge">
+            <span class="est-year">Heritage Sourcing</span>
+            <strong class="brand-cinzel">MEVUKA INSIGNIA OF PURITY</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text-col">
+        <span class="sub-heading">OUR PHILOSOPHY</span>
+        <h2 class="section-title">Rooted in Earth, <br>Elevated for You</h2>
+        <p class="lead-text">
+          At Mevuka, we believe dry fruits shouldn't be processed into submission. 
+          True nourishment lies in the unhurried rhythms of nature.
+        </p>
+        <p>
+          Each harvest begins in certified heritage orchards—from the sun-drenched 
+          valleys of California to the high altitudes of Kashmir and Turkish terraced gardens. 
+          We discard undersized or broken kernels, selecting only top 5% Grade-A produce.
+        </p>
+        
+        <div class="story-highlights">
+          <div class="story-stat">
+            <span class="stat-number">250g</span>
+            <span class="stat-desc">Standard single-origin freshness packets</span>
+          </div>
+          <div class="story-stat">
+            <span class="stat-number">0%</span>
+            <span class="stat-desc">Chemical glazes, bleaching, or added sugar</span>
+          </div>
+          <div class="story-stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-desc">Triple-foil vacuum sealed for natural crunch</span>
+          </div>
+        </div>
+
+        <div class="about-signature">
+          <div>
+            <strong>The Mevuka Quality Council</strong>
+            <small>Handcrafted Dry Fruits Connoisseurs</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       QUALITY STANDARDS / FRESHNESS SEAL
+  ========================================================================== -->
+  <section class="quality-section" id="quality">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-heading">THE MEVUKA PROMISE</span>
+        <h2 class="section-title">The 4-Pillar Freshness Standard</h2>
+        <p class="section-description">
+          Why our 250gm packs taste noticeably sweeter, crunchier, and more wholesome.
+        </p>
+      </div>
+
+      <div class="standards-grid">
+        <div class="standard-box">
+          <span class="standard-num">01</span>
+          <h3>Origin Traceability</h3>
+          <p>Direct single-origin ties. You know exactly if your almonds hail from California or your figs from Turkey.</p>
+        </div>
+        <div class="standard-box">
+          <span class="standard-num">02</span>
+          <h3>Gentle Slow-Roast</h3>
+          <p>Our pistachios and select nuts are toasted gently in small kettles to protect delicate natural plant oils.</p>
+        </div>
+        <div class="standard-box">
+          <span class="standard-num">03</span>
+          <h3>Nitrogen Sealed 250g</h3>
+          <p>Every 250g packet is flushed with food-grade nitrogen, preventing rancidity without artificial chemicals.</p>
+        </div>
+        <div class="standard-box">
+          <span class="standard-num">04</span>
+          <h3>Himalayan Pink Rock Salt</h3>
+          <p>Only authentic mineral-rich rock salt is used for our seasoned collection. Zero sodium overload.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CONTACT & INQUIRIES SECTION
+  ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      
+      <div class="contact-wrapper">
+        
+        <!-- Left Column: Concierge Info -->
+        <div class="contact-info-col">
+          <span class="sub-heading">GET IN TOUCH</span>
+          <h2 class="section-title">Connect with Mevuka Concierge</h2>
+          <p>
+            Have a question about our harvests, bulk gifting for weddings & corporate events, 
+            or need custom packaging? We are delighted to assist you.
+          </p>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <strong>Email Address</strong>
+                <a href="mailto:concierge@mevuka.com">concierge@mevuka.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Direct Assistance</strong>
+                <a href="tel:+919876543210">+91 98765 43210 (Mon - Sat, 9am - 7pm)</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Artisanal Packing House</strong>
+                <span>Mevuka Heritage Centre, Sector 18, Gurugram, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gifting-note">
+            <i class="fa-solid fa-gift gold-icon"></i>
+            <div>
+              <strong>Corporate & Festival Hampers</strong>
+              <p>Custom wooden boxes and bespoke ribbons available for orders over 20 units.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Form -->
+        <div class="contact-form-col">
+          <div class="form-card">
+            <h3>Send an Inquiry</h3>
+            <p class="form-subtitle">Connected live to the Mevuka Flask backend API.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              
+              <div class="form-group">
+                <label for="contact-name">Your Full Name <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-regular fa-user"></i>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    name="name" 
+                    placeholder="e.g. Rudra Sharma" 
+                    required
+                  >
+                </div>
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    name="email" 
+                    placeholder="e.g. rudra@example.com" 
+                    required
+                  >
+                </div>
+                <span class="field-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Topic / Purpose</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-tag"></i>
+                  <select id="contact-subject" name="subject">
+                    <option value="General Question">General Product Question</option>
+                    <option value="Corporate / Wedding Gifting">Corporate / Wedding Bulk Gifting</option>
+                    <option value="Order Tracking">Existing Order Inquiry</option>
+                    <option value="Retail Distribution">Retail / Partnership Request</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Your Message <span class="required">*</span></label>
+                <div class="input-with-icon textarea-wrapper">
+                  <i class="fa-regular fa-comment-dots textarea-icon"></i>
+                  <textarea 
+                    id="contact-message" 
+                    name="message" 
+                    rows="4" 
+                    placeholder="Tell us what you're looking for or ask any question..." 
+                    required
+                  ></textarea>
+                </div>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">
+                <span class="btn-text">Submit Message</span>
+                <i class="fa-solid fa-paper-plane btn-icon"></i>
+              </button>
+
+              <div class="form-status-box hidden" id="form-status-box"></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+  ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand-col">
+        <div class="brand-logo footer-logo">
+          <div class="logo-symbol">
+            <img src="assets/logo.jpg" alt="Mevuka Logo Emblem" class="brand-logo-img">
+          </div>
+          <div class="logo-text">
+            <span class="logo-name brand-cinzel">MEVUKA</span>
+            <span class="logo-tagline">ARTISANAL DRY FRUITS</span>
+          </div>
+        </div>
+        <p class="footer-about">
+          Crafting heritage culinary dry fruits packaged in pure 250gm freshness foil. 
+          Pure, unadulterated nature delivered to your pantry.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Our Harvest</h4>
+        <ul>
+          <li><a href="#products">California Almonds (250g)</a></li>
+          <li><a href="#products">Whole Cashews (250g)</a></li>
+          <li><a href="#products">Kashmiri Walnuts (250g)</a></li>
+          <li><a href="#products">Roasted Pistachios (250g)</a></li>
+          <li><a href="#products">Medjool Dates (250g)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">The Mevuka Story</a></li>
+          <li><a href="#quality">Packaging & Hygiene</a></li>
+          <li><a href="#contact">Corporate Gifting</a></li>
+          <li><a href="#contact">Contact Concierge</a></li>
+          <li><a href="#hero">Customer Reviews</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter-col">
+        <h4>Harvest Newsletter</h4>
+        <p>Subscribe to receive seasonal harvest releases, culinary pairings, and exclusive offers.</p>
+        <form class="newsletter-form" id="newsletter-form" onsubmit="event.preventDefault(); window.MevukaApp.showToast('Thank you for subscribing to Mevuka Harvest Updates!', 'success');">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Mevuka Artisanal Dry Fruits. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms of Sourcing</a>
+          <span>•</span>
+          <a href="#">FSSAI Compliant</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       CART DRAWER (SLIDE-OVER PANEL)
+  ========================================================================== -->
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    
+    <!-- Drawer Header -->
+    <div class="drawer-header">
+      <div class="drawer-title-wrap">
+        <i class="fa-solid fa-bag-shopping gold-icon"></i>
+        <h3>Your Harvest Bag</h3>
+        <span class="drawer-count-badge" id="drawer-count-badge">0 items</span>
+      </div>
+      <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Close Cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Free Shipping Progress -->
+    <div class="free-shipping-meter" id="shipping-meter">
+      <div class="meter-text" id="meter-text">
+        Add <strong>₹999</strong> more to unlock <strong>FREE Express Shipping</strong>!
+      </div>
+      <div class="meter-track">
+        <div class="meter-fill" id="meter-fill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Scrollable List -->
+    <div class="drawer-items-list" id="drawer-items-list">
+      <!-- Dynamically filled by script.js -->
+    </div>
+
+    <!-- Drawer Footer / Summary -->
+    <div class="drawer-footer" id="drawer-footer">
+      <div class="summary-line">
+        <span>Subtotal</span>
+        <strong id="drawer-subtotal">₹0</strong>
+      </div>
+      <div class="summary-line">
+        <span>Estimated Delivery</span>
+        <span id="drawer-shipping">₹60</span>
+      </div>
+      <div class="summary-line total-line">
+        <span>Estimated Total</span>
+        <strong class="grand-total-amount" id="drawer-total">₹0</strong>
+      </div>
+      <p class="all-taxes-note">All taxes included. Each item is a 250gm sealed packet.</p>
+      
+      <div class="drawer-actions">
+        <button class="btn btn-primary btn-block" id="checkout-btn">
+          Proceed to Checkout <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="btn-clear-cart" id="clear-cart-btn">
+          <i class="fa-regular fa-trash-can"></i> Clear Bag
+        </button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- =========================================================================
+       CHECKOUT MODAL (INTERACTIVE PREVIEW)
+  ========================================================================== -->
+  <div class="modal-backdrop" id="checkout-modal-backdrop"></div>
+  <div class="checkout-modal" id="checkout-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-header">
+      <div class="modal-title-wrap">
+        <i class="fa-solid fa-lock gold-icon"></i>
+        <h3>Secure Checkout Preview</h3>
+      </div>
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    
+    <div class="modal-body">
+      <div class="order-summary-box">
+        <h4>Order Breakdown (<span id="modal-item-count">0</span> items)</h4>
+        <div class="order-items-preview" id="modal-items-preview"></div>
+        <div class="modal-total-line">
+          <span>Amount Payable:</span>
+          <strong id="modal-payable-amount">₹0</strong>
+        </div>
+      </div>
+
+      <form id="checkout-form" class="checkout-form" onsubmit="event.preventDefault(); window.MevukaApp.completeCheckout();">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Rudra Sharma" required>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 9876543210" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Delivery Address</label>
+          <input type="text" placeholder="Apartment, Street name, City, Pincode" required>
+        </div>
+        <div class="form-group">
+          <label>Preferred Payment Mode</label>
+          <div class="payment-options">
+            <label class="payment-option">
+              <input type="radio" name="payment" value="upi" checked>
+              <span><i class="fa-solid fa-qrcode"></i> Instant UPI / QR</span>
+            </label>
+            <label class="payment-option">
+              <input type="radio" name="payment" value="card">
+              <span><i class="fa-regular fa-credit-card"></i> Card</span>
+            </label>
+            <label class="payment-option">
+              <input type="radio" name="payment" value="cod">
+              <span><i class="fa-solid fa-money-bill-wave"></i> Cash on Delivery</span>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Confirm & Place Order <i class="fa-solid fa-check"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       TOAST NOTIFICATION CONTAINER
+  ========================================================================== -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Main Application Logic Script -->
+  <script src="script.js"></script>
+</body>
+</html>

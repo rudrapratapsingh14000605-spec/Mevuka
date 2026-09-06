@@ -1,0 +1,17 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Inquiries database (optional: keep or ignore based on preference)
+# backend/inquiries.json
